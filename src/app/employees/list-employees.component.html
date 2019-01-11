@@ -1,0 +1,17 @@
+<p>
+  list-employees works!
+</p>
+<!-- <div class='panel panel-primary' *ngFor='let emp of employees'>
+
+  <app-display-employees [employee]="emp"></app-display-employees>
+</div> -->
+
+
+
+  <button (click)='nextEmployee()' class='btn btn-primary'>
+    View Next Employee
+  </button>
+<br><br>
+  <div class='panel panel-primary' >
+  <app-display-employees [employee]="employeeToDisplay"></app-display-employees>
+</div>
